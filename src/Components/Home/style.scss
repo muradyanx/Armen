@@ -1,0 +1,112 @@
+@import '../../assets/style/global.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-blok{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../public/img/main.jpg');
+    background-attachment: fixed;
+    background-color: #343a40;
+   
+
+
+    .nav-blok{
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        background-color: #343a40;
+        z-index: 3;
+        .nav-left-list{
+            width: 350px;
+            height: 40px;
+        
+        } 
+
+        .nav-right-list{
+            width: 300px;
+            height: 40px;
+        
+        }
+
+        .nav-logo{
+            color: red;
+            font-size: 50px;
+        }
+
+        .lists-font{
+            color: #ffffff;
+            font-size: 19px;
+        }
+        .lists-font:hover{
+            color: red;
+            cursor: pointer;
+        
+        }
+
+    }    
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 37, 41, 0.8509803922);
+
+
+   
+    
+
+  
+
+
+
+
+
+
+
+
+
+}    
+
+.home-title{
+    width: 100%;
+    // height: 270px;
+    justify-content: space-between;
+    padding-top: 200px;
+    
+ .hash{
+    text-decoration: none;
+ }  
+
+.home-food{
+    font-size: 80px;
+    color: snow;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.home-fresh{
+    font-size: 60px;
+    font-weight: 200;
+    color: snow;
+    margin-bottom: 40px;
+}
+.home-btn{
+    width: 170px;
+    height: 60px;
+    background-color: red;
+    color: snow;
+    font-size: 19px;
+    border: none;
+    border-radius: 10px;
+}
+
+}
+
+
+
+}
